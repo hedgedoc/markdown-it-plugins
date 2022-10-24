@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: markdown-it-image-size
+Upstream-Contact: The HedgeDoc developers <license@hedgedoc.org>
+Source: https://github.com/hedgedoc/markdown-it-image-size
+
+Files: .github/pull_request_template.md
+Copyright: 2022 The HedgeDoc developers (see AUTHORS file)
+License: CC-BY-SA-4.0
+
+Files: .yarn/**
+Copyright: Yarn contributors
+License: LicenseRef-yarn
+
+Files: .idea/**
+Copyright: 2022 The HedgeDoc developers (see AUTHORS file)
+License: CC0-1.0
