@@ -21,7 +21,7 @@
     "dist/image-size/index.d.ts",
     "dist/image-size/parse-image-size.d.ts",
     "dist/image-size/specialCharacters.d.ts",
-    "dist/tasks-list/index.d.ts",
+    "dist/task-lists/index.d.ts",
     "dist/index.cjs.map",
     "dist/index.cjs",
     "dist/index.mjs.map",
