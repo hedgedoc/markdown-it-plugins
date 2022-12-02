@@ -146,3 +146,29 @@ const parser = new MarkdownIt().use(taskLists, { label: true, labelAfter: true }
 **Note:** This option does require the `label` option to be truthy.
 
 The options can be combined, of course.
+
+## markdown-it-toc
+
+A markdown-it plugin that renders a table of contents.
+It uses the found headlines as content.
+
+This is a typescript port of [markdown-it-toc-done-right](https://github.com/nagaozen/markdown-it-toc-done-right).
+
+### Usage
+
+Use it the same as a normal markdown-it plugin:
+
+```ts
+import MarkdownIt from 'markdown-it'
+import { toc } from '@hedgedoc/markdown-it-plugins'
+
+const parser = new MarkdownIt().use(toc)
+
+const result = parser.render(`
+[toc]
+
+# head 1
+
+# head 2
+`) // markdown string containing task list items
+```
