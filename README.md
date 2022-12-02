@@ -34,7 +34,7 @@ A markdown-it plugin for size-specified image markups. This plugin overloads the
 
 ```ts
 import MarkdownIt from 'markdown-it'
-import { imageSize } from '@hedgedoc/markdown-it-plugins/imageSize'
+import { imageSize } from '@hedgedoc/markdown-it-plugins'
 
 const md = new MarkdownIt({
     html: true,
@@ -72,7 +72,7 @@ Use it the same as a normal markdown-it plugin:
 
 ```ts
 import MarkdownIt from 'markdown-it'
-import { taskLists } from '@hedgedoc/markdown-it-plugins/taskLists'
+import { taskLists } from '@hedgedoc/markdown-it-plugins'
 
 const parser = new MarkdownIt().use(taskLists)
 
