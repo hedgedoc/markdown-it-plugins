@@ -5,12 +5,12 @@
  */
 
 import MarkdownIt from 'markdown-it/lib'
-import { tasksLists } from './index.js'
+import { taskLists } from './index.js'
 import { describe, expect, it } from '@jest/globals'
 
 describe('markdown-it-task-lists', () => {
   it('renders bullet correctly', () => {
-    const taskListMarkdownParser = new MarkdownIt().use(tasksLists)
+    const taskListMarkdownParser = new MarkdownIt().use(taskLists)
     expect(
       taskListMarkdownParser.render(`
 - [ ] unchecked item 1
@@ -22,7 +22,7 @@ describe('markdown-it-task-lists', () => {
   })
 
   it('renders dirty correctly', () => {
-    const taskListMarkdownParser = new MarkdownIt().use(tasksLists)
+    const taskListMarkdownParser = new MarkdownIt().use(taskLists)
     expect(
       taskListMarkdownParser.render(`
 -   [ ] unchecked todo item 1
@@ -37,7 +37,7 @@ describe('markdown-it-task-lists', () => {
   })
 
   it('renders mixedNested correctly', () => {
-    const taskListMarkdownParser = new MarkdownIt().use(tasksLists)
+    const taskListMarkdownParser = new MarkdownIt().use(taskLists)
     expect(
       taskListMarkdownParser.render(`
 # Test 1
@@ -61,7 +61,7 @@ describe('markdown-it-task-lists', () => {
     ).toMatchSnapshot()
   })
   it('renders ordered correctly', () => {
-    const taskListMarkdownParser = new MarkdownIt().use(tasksLists)
+    const taskListMarkdownParser = new MarkdownIt().use(taskLists)
     expect(
       taskListMarkdownParser.render(`
 1. [x] checked ordered 1

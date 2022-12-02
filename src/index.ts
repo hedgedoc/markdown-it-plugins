@@ -5,4 +5,4 @@
  */
 
 export { imageSize } from './image-size/index.js'
-export { tasksLists } from './tasks-list/index.js'
+export { taskLists } from './task-lists/index.js'
