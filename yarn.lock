@@ -1448,7 +1448,7 @@ __metadata:
   resolution: "@hedgedoc/markdown-it-plugins@workspace:."
   dependencies:
     "@jest/types": 29.4.1
-    "@mrdrogdrog/optional": 1.0.0
+    "@mrdrogdrog/optional": 1.1.0
     "@types/markdown-it": 12.2.3
     "@typescript-eslint/eslint-plugin": 5.51.0
     "@typescript-eslint/parser": 5.51.0
@@ -1805,10 +1805,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mrdrogdrog/optional@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@mrdrogdrog/optional@npm:1.0.0"
-  checksum: 387617b2a27a25bef38d066ca71d048001c949b3bb56bfedc58e695d6c46d1930a39c840e628e26e5b2719440d4438b46e4124de9e47aeea43281d8f2614a0ee
+"@mrdrogdrog/optional@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@mrdrogdrog/optional@npm:1.1.0"
+  checksum: 343d06b3e8d6760a75f0f04cee27fdc2a4dc86f127528231a069fcddae4b2562965a87e654fdae16676273fe402f26a3311ad95c3facd9ae8357b3423b9613f6
   languageName: node
   linkType: hard
 
