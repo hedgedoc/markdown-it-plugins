@@ -1454,7 +1454,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hedgedoc/markdown-it-plugins@workspace:."
   dependencies:
-    "@jest/types": 29.4.2
+    "@jest/types": 29.4.3
     "@mrdrogdrog/optional": 1.1.0
     "@types/markdown-it": 12.2.3
     "@typescript-eslint/eslint-plugin": 5.52.0
@@ -1745,21 +1745,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/types@npm:29.4.2, @jest/types@npm:^29.4.2":
-  version: 29.4.2
-  resolution: "@jest/types@npm:29.4.2"
-  dependencies:
-    "@jest/schemas": ^29.4.2
-    "@types/istanbul-lib-coverage": ^2.0.0
-    "@types/istanbul-reports": ^3.0.0
-    "@types/node": "*"
-    "@types/yargs": ^17.0.8
-    chalk: ^4.0.0
-  checksum: da2caa2c1d3ce7461167faddf9a4158a4be5c900e44f22db9c370b189c804b7492051c635a8c0c62ac4e41aff3bc6c324a008043e193bc5d6ce7b44aaa449258
-  languageName: node
-  linkType: hard
-
-"@jest/types@npm:^29.4.3":
+"@jest/types@npm:29.4.3, @jest/types@npm:^29.4.3":
   version: 29.4.3
   resolution: "@jest/types@npm:29.4.3"
   dependencies:
@@ -1770,6 +1756,20 @@ __metadata:
     "@types/yargs": ^17.0.8
     chalk: ^4.0.0
   checksum: 1756f4149d360f98567f56f434144f7af23ed49a2c42889261a314df6b6654c2de70af618fb2ee0ee39cadaf10835b885845557184509503646c9cb9dcc02bac
+  languageName: node
+  linkType: hard
+
+"@jest/types@npm:^29.4.2":
+  version: 29.4.2
+  resolution: "@jest/types@npm:29.4.2"
+  dependencies:
+    "@jest/schemas": ^29.4.2
+    "@types/istanbul-lib-coverage": ^2.0.0
+    "@types/istanbul-reports": ^3.0.0
+    "@types/node": "*"
+    "@types/yargs": ^17.0.8
+    chalk: ^4.0.0
+  checksum: da2caa2c1d3ce7461167faddf9a4158a4be5c900e44f22db9c370b189c804b7492051c635a8c0c62ac4e41aff3bc6c324a008043e193bc5d6ce7b44aaa449258
   languageName: node
   linkType: hard
 
