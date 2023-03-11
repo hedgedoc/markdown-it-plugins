@@ -55,7 +55,7 @@
     "markdown-it": ">=12"
   },
   "devDependencies": {
-    "@jest/types": "29.4.3",
+    "@jest/types": "29.5.0",
     "@mrdrogdrog/optional": "1.1.0",
     "@types/markdown-it": "12.2.3",
     "@typescript-eslint/eslint-plugin": "5.54.0",
