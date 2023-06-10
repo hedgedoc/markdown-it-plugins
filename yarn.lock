@@ -1547,7 +1547,7 @@ __metadata:
     eslint-config-prettier: 8.8.0
     eslint-plugin-jest: 27.2.1
     eslint-plugin-prettier: 4.2.1
-    html-entities: 2.3.3
+    html-entities: 2.3.5
     jest: 29.5.0
     markdown-it: 13.0.1
     microbundle: 0.15.1
@@ -4380,10 +4380,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-entities@npm:2.3.3":
-  version: 2.3.3
-  resolution: "html-entities@npm:2.3.3"
-  checksum: 92521501da8aa5f66fee27f0f022d6e9ceae62667dae93aa6a2f636afa71ad530b7fb24a18d4d6c124c9885970cac5f8a52dbf1731741161002816ae43f98196
+"html-entities@npm:2.3.5":
+  version: 2.3.5
+  resolution: "html-entities@npm:2.3.5"
+  checksum: 585f8a4d549b126b147c95398849a343df4cec379ad0ab87c6be1539870751cb85d3d4910c2cb4a848cc99de84307cd9a372890175b73852d5225e716e65e62f
   languageName: node
   linkType: hard
 
