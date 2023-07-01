@@ -69,7 +69,7 @@
     "markdown-it": "13.0.1",
     "microbundle": "0.15.1",
     "prettier": "2.8.8",
-    "ts-jest": "29.1.0",
+    "ts-jest": "29.1.1",
     "typescript": "5.1.6"
   },
   "repository": {
