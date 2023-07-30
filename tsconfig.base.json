@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
     "lib": [
@@ -11,11 +10,10 @@
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
     "esModuleInterop": true,
     "allowJs": true,
     "sourceMap": true
   },
   "include": ["src"],
-  "exclude": ["dist"]
+  "exclude": ["dist", "**/*.test.ts"]
 }
