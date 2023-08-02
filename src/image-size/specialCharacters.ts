@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2022 The HedgeDoc developers (see AUTHORS file)
+ * SPDX-FileCopyrightText: 2023 The HedgeDoc developers (see AUTHORS file)
  *
  * SPDX-License-Identifier: MIT
  */
@@ -14,5 +14,6 @@ export enum SpecialCharacters {
   LOWER_CASE_X = 0x78,
   NUMBER_ZERO = 0x30,
   NUMBER_NINE = 0x39,
-  PERCENTAGE = 0x25
+  PERCENTAGE = 0x25,
+  CLOSING_PARENTHESIS = 0x29
 }

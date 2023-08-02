@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2022 The HedgeDoc developers (see AUTHORS file)
+ * SPDX-FileCopyrightText: 2023 The HedgeDoc developers (see AUTHORS file)
  *
  * SPDX-License-Identifier: MIT
  */
@@ -181,7 +181,7 @@ const imageWithSize: ParserInline.RuleInline = (state, silent) => {
       height = parseSizeParametersResult.height
     }
 
-    if (position >= max || state.src.charCodeAt(position) !== 0x29 /* ) */) {
+    if (position >= max || state.src.charCodeAt(position) !== SpecialCharacters.CLOSING_PARENTHESIS) {
       state.pos = oldPos
       return false
     }
@@ -200,7 +200,7 @@ const imageWithSize: ParserInline.RuleInline = (state, silent) => {
 
     let label
 
-    if (position < max && state.src.charCodeAt(position) === 0x5b /* [ */) {
+    if (position < max && state.src.charCodeAt(position) === SpecialCharacters.OPENING_BRACKET) {
       start = position + 1
       position = state.md.helpers.parseLinkLabel(state, position)
       if (position >= 0) {
