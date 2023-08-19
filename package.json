@@ -109,8 +109,8 @@
   "devDependencies": {
     "@jest/types": "29.6.1",
     "@types/markdown-it": "13.0.0",
-    "@typescript-eslint/eslint-plugin": "6.3.0",
-    "@typescript-eslint/parser": "6.3.0",
+    "@typescript-eslint/eslint-plugin": "6.4.0",
+    "@typescript-eslint/parser": "6.4.0",
     "eslint": "8.47.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-jest": "27.2.3",
