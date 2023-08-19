@@ -129,5 +129,5 @@
     "url": "https://github.com/hedgedoc/markdown-it-plugins/issues"
   },
   "homepage": "https://github.com/hedgedoc/markdown-it-plugins#readme",
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.2"
 }
